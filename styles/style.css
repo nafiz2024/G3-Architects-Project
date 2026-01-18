@@ -152,8 +152,32 @@ nav ul li a:hover {
 }
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
+  .main_width {
+    width: 100%;
+    margin: 0px auto;
+  }
   nav,
   nav ul {
     flex-direction: column;
   }
+
+  .teams {
+  width: 100%;
+  margin: 0px auto;
+  padding-top: 85px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team_img_container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.our_features {
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
 }
