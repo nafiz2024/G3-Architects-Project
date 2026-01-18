@@ -222,6 +222,15 @@ nav ul li a:hover {
   filter: grayscale(100%);
 }
 
+/* Footer Section Style */
+.footer_section {
+  margin: 130px auto;
+  padding: 39px 0px;
+  text-align: center;
+  background-color: rgb(255, 144, 14, 0.1);
+  border-radius: 8px;
+}
+
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
   .main_width {
