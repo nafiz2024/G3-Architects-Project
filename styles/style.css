@@ -151,6 +151,46 @@ nav ul li a:hover {
   margin-bottom: 32px;
 }
 
+/* Features Section Style */
+.features {
+  margin: 130px auto;
+  gap: 150px;
+}
+
+#features_info_title {
+  border-left: 5px solid #ff900e;
+}
+
+.features_info h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  width: 468px;
+  padding-left: 21px;
+  margin-bottom: 24px;
+}
+
+.features_info p {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.features_box {
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 30px 0 #00000021;
+  border-radius: 8px;
+}
+
+.features_box h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.features_box p {
+  line-height: 26px;
+}
+
 /* Facts Section Style */
 .facts {
   margin-bottom: 180px;
