@@ -8,3 +8,51 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+/* Shared Styles */
+.dark01 {
+    color: #131313;
+}
+
+.dark02 {
+    color: #424242;
+}
+
+.bgc01{
+    background-color: rgb(255, 144, 14, 0.1);
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* Header Styles */
+
+
+/* Navbar Styles */
+nav {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0px auto;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 13px 12px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
