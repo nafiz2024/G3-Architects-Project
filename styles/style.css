@@ -191,6 +191,24 @@ nav ul li a:hover {
   line-height: 26px;
 }
 
+#experience_badge {
+  padding: 46px 42px;
+  margin-left: -92px;
+  margin-top: -123px;
+}
+
+#experience_year {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+#experience {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 40px;
+}
+
 /* Facts Section Style */
 .facts {
   margin-bottom: 180px;
@@ -301,7 +319,30 @@ nav ul li a:hover {
   }
 
   .our_features {
-    margin: 0px auto;
+    margin: 30px auto;
+  }
+
+  .features {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .features_info h1 {
+    width: 100%;
+  }
+
+  .features_image img {
+    width: 100%;
+  }
+
+  #experience_badge {
+    padding: 46px 42px;
+    margin-left: 5px;
+    margin-top: -70px;
+  }
+
+  .facts {
+    margin-top: 50px;
   }
 
   .factsP {
@@ -322,5 +363,9 @@ nav ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
     justify-items: center;
+  }
+
+  .footer_section {
+    margin: 50px auto 0px;
   }
 }
